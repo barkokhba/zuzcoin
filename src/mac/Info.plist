@@ -6,32 +6,32 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>dogecoin</string>
+			<string>zuzcoin</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>dogecoin</string>
+				<string>zuzcoin</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleShortVersionString</key>
-        <string>1.6.1</string>
+        <string>1.6.0</string>
 	<key>CFBundleVersion</key>
-        <string>1.6.1</string>
+        <string>1.6.0</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>CFBundleIconFile</key>
-	<string>Dogecoin.icns</string>
+	<string>Zuzcoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>© Dogecoin</string>
+	<string>© Zuzcoin</string>
 	<key>CFBundleSignature</key>
-	<string>DOGE</string>
+	<string>ZUZ</string>
 	<key>CFBundleExecutable</key>
-	<string>Dogecoin-Qt</string>
+	<string>Zuzcoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.dogecoin.wallet-qt</string>
+	<string>com.zuzcoin.wallet-qt</string>
 	<key>CFBundleName</key>
-	<string>Dogecoin-Qt</string>
+	<string>Zuzcoin-Qt</string>
 </dict>
 </plist>

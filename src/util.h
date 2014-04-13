@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2013-2014 Dogecoin Developers
+// Copyright (c) 2013-2014 Zuzcoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_UTIL_H
@@ -33,8 +33,8 @@
 typedef long long  int64;
 typedef unsigned long long  uint64;
 
-static const int64 COIN = 100000000;
-static const int64 CENT = 1000000;
+static const int64 COIN = 1000000;
+static const int64 CENT = 10000;
 
 #define loop                for (;;)
 #define BEGIN(a)            ((char*)&(a))

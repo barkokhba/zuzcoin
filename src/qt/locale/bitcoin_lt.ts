@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Dogecoin</source>
-        <translation>Apie Dogecoin</translation>
+        <source>About Zuzcoin</source>
+        <translation>Apie Zuzcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Dogecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Dogecoin&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;Zuzcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Zuzcoin&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -43,7 +43,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+0"/>
-        <source>2013-%1 The Dogecoin developers</source>
+        <source>2013-%1 The Zuzcoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -76,8 +76,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Dogecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tai yra jūsų Dogecoin adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
+        <source>These are your Zuzcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tai yra jūsų Zuzcoin adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -91,8 +91,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Dogecoin address</source>
-        <translation>Pasirašykite žinutę, kad įrodytume, jog esate Dogecoin adreso savininkas</translation>
+        <source>Sign a message to prove you own a Zuzcoin address</source>
+        <translation>Pasirašykite žinutę, kad įrodytume, jog esate Zuzcoin adreso savininkas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -116,8 +116,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Dogecoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Dogecoin adresas</translation>
+        <source>Verify a message to ensure it was signed with a specified Zuzcoin address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Zuzcoin adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -131,7 +131,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Zuzcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -257,8 +257,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO DOGECOINUS&lt;/b&gt;! </translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZUZCOINS&lt;/b&gt;!</source>
+        <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO ZUZCOINUS&lt;/b&gt;! </translation>
     </message>
     <message>
         <location line="+0"/>
@@ -284,8 +284,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-56"/>
-        <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Dogecoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti dogecoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>Zuzcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your zuzcoins from being stolen by malware infecting your computer.</source>
+        <translation>Zuzcoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti zuzcoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -383,8 +383,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Dogecoin</source>
-        <translation>Rodyti informaciją apie Dogecoin</translation>
+        <source>Show information about Zuzcoin</source>
+        <translation>Rodyti informaciją apie Zuzcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -428,13 +428,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Siųsti monetas Dogecoin adresui</translation>
+        <source>Send coins to a Zuzcoin address</source>
+        <translation>Siųsti monetas Zuzcoin adresui</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Dogecoin</source>
-        <translation>Keisti dogecoin konfigūracijos galimybes</translation>
+        <source>Modify configuration options for Zuzcoin</source>
+        <translation>Keisti zuzcoin konfigūracijos galimybes</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -464,8 +464,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Zuzcoin</source>
+        <translation>Zuzcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -489,8 +489,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Dogecoin</source>
-        <translation>&amp;Apie Dogecoin</translation>
+        <source>&amp;About Zuzcoin</source>
+        <translation>&amp;Apie Zuzcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -509,12 +509,12 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
+        <source>Sign messages with your Zuzcoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Zuzcoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -545,13 +545,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+47"/>
-        <source>Dogecoin client</source>
-        <translation>Dogecoin klientas</translation>
+        <source>Zuzcoin client</source>
+        <translation>Zuzcoin klientas</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n Dogecoin tinklo aktyvus ryšys</numerusform><numerusform>%n Dogecoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n Dogecoin tinklo aktyvūs ryšiai</numerusform></translation>
+        <source>%n active connection(s) to Zuzcoin network</source>
+        <translation><numerusform>%n Zuzcoin tinklo aktyvus ryšys</numerusform><numerusform>%n Zuzcoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n Zuzcoin tinklo aktyvūs ryšiai</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -664,7 +664,7 @@ Adresas: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Zuzcoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -679,7 +679,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Zuzcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -745,8 +745,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis Dogecoin adresas.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Zuzcoin address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis Zuzcoin adresas.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -764,8 +764,8 @@ Adresas: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Dogecoin-Qt</source>
-        <translation>Dogecoin-Qt</translation>
+        <source>Zuzcoin-Qt</source>
+        <translation>Zuzcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -827,13 +827,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Dogecoin after logging in to the system.</source>
+        <source>Automatically start Zuzcoin after logging in to the system.</source>
         <translation>Automatiškai paleisti Bitkoin programą įjungus sistemą.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Dogecoin on system login</source>
-        <translation>&amp;Paleisti Dogecoin programą su window sistemos paleidimu</translation>
+        <source>&amp;Start Zuzcoin on system login</source>
+        <translation>&amp;Paleisti Zuzcoin programą su window sistemos paleidimu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -852,8 +852,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Dogecoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Zuzcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Zuzcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -862,7 +862,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Dogecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Zuzcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Jungtis į Bitkoin tinklą per  socks proxy (pvz. jungiantis per Tor)</translation>
     </message>
     <message>
@@ -937,8 +937,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin.</source>
-        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Dogecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Zuzcoin.</source>
+        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Zuzcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -952,7 +952,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
+        <source>Whether to show Zuzcoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1004,7 +1004,7 @@ Adresas: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Dogecoin.</source>
+        <source>This setting will take effect after restarting Zuzcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1023,7 +1023,7 @@ Adresas: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zuzcoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1077,7 +1077,7 @@ Adresas: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <source>Cannot start zuzcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1227,7 +1227,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Dogecoin-Qt help message to get a list with possible Dogecoin command-line options.</source>
+        <source>Show the Zuzcoin-Qt help message to get a list with possible Zuzcoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1247,13 +1247,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Dogecoin - Debug window</source>
-        <translation>Dogecoin - Derinimo langas</translation>
+        <source>Zuzcoin - Debug window</source>
+        <translation>Zuzcoin - Derinimo langas</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin branduolys</translation>
+        <source>Zuzcoin Core</source>
+        <translation>Zuzcoin branduolys</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1262,7 +1262,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Zuzcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1272,7 +1272,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Dogecoin RPC console.</source>
+        <source>Welcome to the Zuzcoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1327,8 +1327,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 DOGE</source>
-        <translation>123.456 DOGE</translation>
+        <source>123.456 ZUZ</source>
+        <translation>123.456 ZUZ</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1456,7 +1456,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <source>Enter a Zuzcoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Įveskite bitkoinų adresą (pvz. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
 </context>
@@ -1521,7 +1521,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Dogecoin address</source>
+        <source>Sign the message to prove you own this Zuzcoin address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -1557,8 +1557,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Dogecoin adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Zuzcoin address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Zuzcoin adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,7 +1573,7 @@ Adresas: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <source>Enter a Zuzcoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
         <translation>Įveskite bitkoinų adresą (pvz. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
@@ -1583,8 +1583,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Dogecoin signature</source>
-        <translation>Įveskite Dogecoin parašą</translation>
+        <source>Enter Zuzcoin signature</source>
+        <translation>Įveskite Zuzcoin parašą</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1657,7 +1657,7 @@ Adresas: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Dogecoin developers</source>
+        <source>The Zuzcoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2195,8 +2195,8 @@ Adresas: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Dogecoin version</source>
-        <translation>Dogecoin versija</translation>
+        <source>Zuzcoin version</source>
+        <translation>Zuzcoin versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2205,8 +2205,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dogecoind</source>
-        <translation>Siųsti komandą serveriui arba dogecoind</translation>
+        <source>Send command to -server or zuzcoind</source>
+        <translation>Siųsti komandą serveriui arba zuzcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2225,13 +2225,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dogecoin.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: dogecoin.conf)</translation>
+        <source>Specify configuration file (default: zuzcoin.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: zuzcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dogecoind.pid)</source>
-        <translation>Nurodyti pid failą (pagal nutylėjimą: dogecoind.pid)</translation>
+        <source>Specify pid file (default: zuzcoind.pid)</source>
+        <translation>Nurodyti pid failą (pagal nutylėjimą: zuzcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2245,8 +2245,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 22556 or testnet: 44556)</source>
-        <translation>Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 22556 arba testnet: 44556)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 19191 or testnet: 19192)</source>
+        <translation>Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 19191 arba testnet: 19192)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2280,8 +2280,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22555 or testnet: 44555)</source>
-        <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 22555 or testnet: 44555)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 18181 or testnet: 18182)</source>
+        <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 18181 or testnet: 18182)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2308,13 +2308,13 @@ Adresas: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=zuzcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Zuzcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2330,7 +2330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Zuzcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2375,8 +2375,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Dogecoin, veiks netinkamai.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Zuzcoin will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Zuzcoin, veiks netinkamai.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2625,8 +2625,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Dogecoin Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e Dogecoin Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Zuzcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e Zuzcoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2815,13 +2815,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Dogecoin versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Zuzcoin</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Zuzcoin versijos</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Dogecoin</translation>
+        <source>Wallet needed to be rewritten: restart Zuzcoin to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Zuzcoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2880,8 +2880,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Dogecoin is probably already running.</source>
-        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. Dogecoin tikriausiai jau veikia.</translation>
+        <source>Unable to bind to %s on this computer. Zuzcoin is probably already running.</source>
+        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. Zuzcoin tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location line="+64"/>

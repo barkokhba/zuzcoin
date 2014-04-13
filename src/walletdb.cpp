@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2013-2014 Dogecoin Developers
+// Copyright (c) 2013-2014 Zuzcoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -212,6 +212,26 @@ ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue,
             {
                 pwallet->mapWallet.erase(hash);
                 return false;
+            }
+
+            // Undo serialize changes in 31600
+            if (31404 <= wtx.fTimeReceivedIsTxTime && wtx.fTimeReceivedIsTxTime <= 31703)
+            {
+                if (!ssValue.empty())
+                {
+                    char fTmp;
+                    char fUnused;
+                    ssValue >> fTmp >> fUnused >> wtx.strFromAccount;
+                    strErr = strprintf("LoadWallet() upgrading tx ver=%d %d '%s' %s",
+                                       wtx.fTimeReceivedIsTxTime, fTmp, wtx.strFromAccount.c_str(), hash.ToString().c_str());
+                    wtx.fTimeReceivedIsTxTime = fTmp;
+                }
+                else
+                {
+                    strErr = strprintf("LoadWallet() repairing tx ver=%d %s", wtx.fTimeReceivedIsTxTime, hash.ToString().c_str());
+                    wtx.fTimeReceivedIsTxTime = 0;
+                }
+                vWalletUpgrade.push_back(hash);
             }
 
             if (wtx.nOrderPos == -1)
@@ -433,6 +453,10 @@ DBErrors CWalletDB::LoadWallet(CWallet* pwallet)
 
     BOOST_FOREACH(uint256 hash, vWalletUpgrade)
         WriteTx(hash, pwallet->mapWallet[hash]);
+
+    // Rewrite encrypted wallets of versions 0.4.0 and 0.5.0rc:
+    if (fIsEncrypted && (nFileVersion == 40000 || nFileVersion == 50000))
+        return DB_NEED_REWRITE;
 
     if (nFileVersion < CLIENT_VERSION) // Update
         WriteVersion(CLIENT_VERSION);

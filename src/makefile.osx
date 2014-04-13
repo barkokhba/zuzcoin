@@ -1,10 +1,10 @@
 # -*- mode: Makefile; -*-
 # Copyright (c) 2011 Bitcoin Developers
-# Copyright (c) 2013-2014 Dogecoin Developers
+# Copyright (c) 2013-2014 Zuzcoin Developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-# Mac OS X makefile for Dogecoin
+# Mac OS X makefile for Zuzcoin
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
 CXX=c++
@@ -19,7 +19,9 @@ endif
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
  -I"$(CURDIR)"/obj \
- -I"$(DEPSDIR)/include" 
+ -I"$(DEPSDIR)/include" \
+ -I"/usr/local/Cellar/berkeley-db4/4.8.30/include" \
+ -I"/usr/local/Cellar/openssl/1.0.1g/include"
 
 LIBPATHS= \
  -L"$(DEPSDIR)/lib" 
@@ -36,28 +38,29 @@ ifdef STATIC
 TESTLIBS += \
  $(DEPSDIR)/lib/libboost_unit_test_framework-mt.a
 LIBS += \
- $(DEPSDIR)/lib/libdb_cxx.a \
+ #$(DEPSDIR)/lib/libdb_cxx.a 
+ /usr/local/Cellar/berkeley-db4/4.8.30/lib/libdb_cxx.a \
+ /usr/local/Cellar/openssl/1.0.1g/lib/libssl.a \
+ /usr/local/Cellar/openssl/1.0.1g/lib/libcrypto.a \
  $(DEPSDIR)/lib/libboost_system-mt.a \
  $(DEPSDIR)/lib/libboost_filesystem-mt.a \
  $(DEPSDIR)/lib/libboost_program_options-mt.a \
  $(DEPSDIR)/lib/libboost_thread-mt.a \
  $(DEPSDIR)/lib/libboost_chrono-mt.a \
- -lssl \
- -lcrypto \
  -lz
 else
 TESTLIBS += \
  -lboost_unit_test_framework-mt
 LIBS += \
- -ldb_cxx \
+ /usr/local/Cellar/berkeley-db4/4.8.30/lib/libdb_cxx.a \
+ /usr/local/Cellar/openssl/1.0.1g/lib/libssl.a \
+ /usr/local/Cellar/openssl/1.0.1g/lib/libcrypto.a \
+ -lz \
  -lboost_system-mt \
  -lboost_filesystem-mt \
  -lboost_program_options-mt \
  -lboost_thread-mt \
- -lboost_chrono-mt \
- -lssl \
- -lcrypto \
- -lz
+ -lboost_chrono-mt
 TESTDEFS += -DBOOST_TEST_DYN_LINK
 endif
 
@@ -73,7 +76,7 @@ DEBUGFLAGS = -g
 endif
 
 # osx 10.9 has changed the stdlib default to libc++. To prevent some link error, you may need to use libstdc++
-CFLAGS += -stdlib=libstdc++
+#CFLAGS += -stdlib=libstdc++
 
 # ppc doesn't work because we don't support big-endian
 CFLAGS += -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter \
@@ -136,10 +139,10 @@ ifneq (${USE_IPV6}, -)
 	DEFS += -DUSE_IPV6=$(USE_IPV6)
 endif
 
-all: dogecoind
+all: zuzcoind
 
-test check: test_dogecoin FORCE
-	./test_dogecoin
+test check: test_zuzcoin FORCE
+	./test_zuzcoin
 
 #
 # LevelDB support
@@ -173,7 +176,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-dogecoind: $(OBJS:obj/%=obj/%)
+zuzcoind: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -185,11 +188,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_dogecoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_zuzcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) $(TESTLIBS)
 
 clean:
-	-rm -f dogecoind test_dogecoin
+	-rm -f zuzcoind test_zuzcoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

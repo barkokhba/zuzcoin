@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Dogecoin</source>
-        <translation>About Dogecoin</translation>
+        <source>About Zuzcoin</source>
+        <translation>About Zuzcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Dogecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Dogecoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Zuzcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Zuzcoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -46,8 +46,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>2013-%1 The Dogecoin developers</source>
-        <translation>2013-%1 The Dogecoin developers</translation>
+        <source>2013-%1 The Zuzcoin developers</source>
+        <translation>2013-%1 The Zuzcoin developers</translation>
     </message>
 </context>
 <context>
@@ -79,8 +79,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Dogecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your Dogecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your Zuzcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your Zuzcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -94,8 +94,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Dogecoin address</source>
-        <translation>Sign a message to prove you own a Dogecoin address</translation>
+        <source>Sign a message to prove you own a Zuzcoin address</source>
+        <translation>Sign a message to prove you own a Zuzcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -119,8 +119,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Dogecoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified Dogecoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified Zuzcoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified Zuzcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -134,8 +134,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Zuzcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Zuzcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -260,8 +260,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZUZCOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZUZCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -287,8 +287,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</translation>
+        <source>Zuzcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your zuzcoins from being stolen by malware infecting your computer.</source>
+        <translation>Zuzcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your zuzcoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -386,8 +386,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Dogecoin</source>
-        <translation>Show information about Dogecoin</translation>
+        <source>Show information about Zuzcoin</source>
+        <translation>Show information about Zuzcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -431,13 +431,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Send coins to a Dogecoin address</translation>
+        <source>Send coins to a Zuzcoin address</source>
+        <translation>Send coins to a Zuzcoin address</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Dogecoin</source>
-        <translation>Modify configuration options for Dogecoin</translation>
+        <source>Modify configuration options for Zuzcoin</source>
+        <translation>Modify configuration options for Zuzcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -467,8 +467,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Zuzcoin</source>
+        <translation>Zuzcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -492,8 +492,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Dogecoin</source>
-        <translation>&amp;About Dogecoin</translation>
+        <source>&amp;About Zuzcoin</source>
+        <translation>&amp;About Zuzcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -512,13 +512,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Sign messages with your Dogecoin addresses to prove you own them</translation>
+        <source>Sign messages with your Zuzcoin addresses to prove you own them</source>
+        <translation>Sign messages with your Zuzcoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Dogecoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Zuzcoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Zuzcoin addresses</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -548,15 +548,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Dogecoin client</source>
-        <translation>Dogecoin client</translation>
+        <source>Zuzcoin client</source>
+        <translation>Zuzcoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Dogecoin network</source>
+        <source>%n active connection(s) to Zuzcoin network</source>
         <translation>
-            <numerusform>%n active connection to Dogecoin network</numerusform>
-            <numerusform>%n active connections to Dogecoin network</numerusform>
+            <numerusform>%n active connection to Zuzcoin network</numerusform>
+            <numerusform>%n active connections to Zuzcoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -680,8 +680,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Zuzcoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid Zuzcoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -695,8 +695,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Zuzcoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Zuzcoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -761,8 +761,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Dogecoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Zuzcoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Zuzcoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -780,8 +780,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Dogecoin-Qt</source>
-        <translation>Dogecoin-Qt</translation>
+        <source>Zuzcoin-Qt</source>
+        <translation>Zuzcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -843,13 +843,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Dogecoin after logging in to the system.</source>
-        <translation>Automatically start Dogecoin after logging in to the system.</translation>
+        <source>Automatically start Zuzcoin after logging in to the system.</source>
+        <translation>Automatically start Zuzcoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Dogecoin on system login</source>
-        <translation>&amp;Start Dogecoin on system login</translation>
+        <source>&amp;Start Zuzcoin on system login</source>
+        <translation>&amp;Start Zuzcoin on system login</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -868,8 +868,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Zuzcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Zuzcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -878,8 +878,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Dogecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the Dogecoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the Zuzcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the Zuzcoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -953,8 +953,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Dogecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Zuzcoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Zuzcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -968,8 +968,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
-        <translation>Whether to show Dogecoin addresses in the transaction list or not.</translation>
+        <source>Whether to show Zuzcoin addresses in the transaction list or not.</source>
+        <translation>Whether to show Zuzcoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1020,8 +1020,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Dogecoin.</source>
-        <translation>This setting will take effect after restarting Dogecoin.</translation>
+        <source>This setting will take effect after restarting Zuzcoin.</source>
+        <translation>This setting will take effect after restarting Zuzcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1039,8 +1039,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zuzcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Zuzcoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1093,8 +1093,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Cannot start dogecoin: click-to-pay handler</translation>
+        <source>Cannot start zuzcoin: click-to-pay handler</source>
+        <translation>Cannot start zuzcoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1243,8 +1243,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Dogecoin-Qt help message to get a list with possible Dogecoin command-line options.</source>
-        <translation>Show the Dogecoin-Qt help message to get a list with possible Dogecoin command-line options.</translation>
+        <source>Show the Zuzcoin-Qt help message to get a list with possible Zuzcoin command-line options.</source>
+        <translation>Show the Zuzcoin-Qt help message to get a list with possible Zuzcoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1263,13 +1263,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Dogecoin - Debug window</source>
-        <translation>Dogecoin - Debug window</translation>
+        <source>Zuzcoin - Debug window</source>
+        <translation>Zuzcoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>Zuzcoin Core</source>
+        <translation>Zuzcoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1278,8 +1278,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Zuzcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Zuzcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1288,8 +1288,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Dogecoin RPC console.</source>
-        <translation>Welcome to the Dogecoin RPC console.</translation>
+        <source>Welcome to the Zuzcoin RPC console.</source>
+        <translation>Welcome to the Zuzcoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1343,8 +1343,8 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 DOGE</source>
-        <translation>123.456 DOGE</translation>
+        <source>123.456 ZUZ</source>
+        <translation>123.456 ZUZ</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1472,8 +1472,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
-        <translation>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+        <source>Enter a Zuzcoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <translation>Enter a Zuzcoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
 </context>
 <context>
@@ -1537,8 +1537,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Sign the message to prove you own this Dogecoin address</translation>
+        <source>Sign the message to prove you own this Zuzcoin address</source>
+        <translation>Sign the message to prove you own this Zuzcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,8 +1573,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Dogecoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Zuzcoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Zuzcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1589,8 +1589,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
-        <translation>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+        <source>Enter a Zuzcoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <translation>Enter a Zuzcoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1599,8 +1599,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Dogecoin signature</source>
-        <translation>Enter Dogecoin signature</translation>
+        <source>Enter Zuzcoin signature</source>
+        <translation>Enter Zuzcoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1673,8 +1673,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Dogecoin developers</source>
-        <translation>The Dogecoin developers</translation>
+        <source>The Zuzcoin developers</source>
+        <translation>The Zuzcoin developers</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2226,8 +2226,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Dogecoin version</source>
-        <translation>Dogecoin version</translation>
+        <source>Zuzcoin version</source>
+        <translation>Zuzcoin version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2236,8 +2236,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dogecoind</source>
-        <translation>Send command to -server or dogecoind</translation>
+        <source>Send command to -server or zuzcoind</source>
+        <translation>Send command to -server or zuzcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2256,13 +2256,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dogecoin.conf)</source>
-        <translation>Specify configuration file (default: dogecoin.conf)</translation>
+        <source>Specify configuration file (default: zuzcoin.conf)</source>
+        <translation>Specify configuration file (default: zuzcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dogecoind.pid)</source>
-        <translation>Specify pid file (default: dogecoind.pid)</translation>
+        <source>Specify pid file (default: zuzcoind.pid)</source>
+        <translation>Specify pid file (default: zuzcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2276,8 +2276,8 @@ Address: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 22556 or testnet: 44556)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 22556 or testnet: 44556)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 19191 or testnet: 19192)</source>
+        <translation>Listen for connections on &lt;port&gt; (default: 19191 or testnet: 19192)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2311,8 +2311,8 @@ Address: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22555 or testnet: 44555)</source>
-        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 22555 or testnet: 44555)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 18181 or testnet: 18182)</source>
+        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 18181 or testnet: 18182)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2339,24 +2339,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=zuzcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Zuzcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=zuzcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Zuzcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2371,8 +2371,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Dogecoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Zuzcoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Zuzcoin is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2416,8 +2416,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Zuzcoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Zuzcoin will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2666,8 +2666,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Dogecoin Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the Dogecoin Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Zuzcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL options: (see the Zuzcoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2856,13 +2856,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Dogecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Zuzcoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Zuzcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart Dogecoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart Zuzcoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart Zuzcoin to complete</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2921,8 +2921,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Dogecoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Dogecoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Zuzcoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Zuzcoin is probably already running.</translation>
     </message>
     <message>
         <location line="+64"/>

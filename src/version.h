@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2013-2014 Dogecoin Developers
+// Copyright (c) 2013-2014 Zuzcoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_VERSION_H
@@ -40,7 +40,7 @@ static const int CADDR_TIME_VERSION = 31402;
 
 // only request blocks from nodes outside this range of versions
 static const int NOBLKS_VERSION_START = 60000;
-static const int NOBLKS_VERSION_END = 70001;
+static const int NOBLKS_VERSION_END = 60002;
 
 // BIP 0031, pong message, is enabled for all versions AFTER this one
 static const int BIP0031_VERSION = 60000;

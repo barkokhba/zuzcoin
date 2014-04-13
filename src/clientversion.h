@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2014 Dogecoin Developers
+// Copyright (c) 2013-2014 Zuzcoin Developers
 
 #ifndef CLIENTVERSION_H
 #define CLIENTVERSION_H
@@ -10,7 +10,7 @@
 // These need to be macros, as version.cpp's and bitcoin-qt.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR       1
 #define CLIENT_VERSION_MINOR       6
-#define CLIENT_VERSION_REVISION    1
+#define CLIENT_VERSION_REVISION    0
 #define CLIENT_VERSION_BUILD       0
 
 // Set to true for release, false for prerelease or test build
